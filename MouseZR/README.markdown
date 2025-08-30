@@ -75,16 +75,6 @@ To build and run MouseZR on Linux, you need:
 - **MouseZR.asm**: Assembly output of the compiled C code (for reference or debugging).
 - **chart.png**: Diagram illustrating the MouseZR architecture or performance metrics.
 
-## Example Workflow
-The following diagram (from `chart.png`) provides a visual overview of MouseZR's architecture:
-
-![MouseZR Architecture](MouseZR/chart.png)
-
-1. The server initializes a virtual mouse device via `/dev/uinput`.
-2. It listens for TCP connections on port 8080.
-3. A client sends commands (e.g., `MOVE 100 50`).
-4. MouseZR processes the command and sends input events to the virtual mouse device.
-5. The Linux system interprets these events as mouse movements, clicks, or scrolls.
 
 ## Notes
 - Ensure `/dev/uinput` is accessible. You may need to add your user to the `input` group or run as root:
