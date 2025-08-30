@@ -70,6 +70,7 @@ To build and run MouseZR on Linux, you need:
    Press `Ctrl+C` to send a SIGINT signal, or use `kill` to send a SIGTERM signal. The server will close the virtual mouse device and socket gracefully.
 
 ## Project Structure
+![MouseZR Architecture](flow.png)
 - **MouseZR.c**: Main C source file implementing the server and mouse control logic.
 - **MouseZR.h**: Header file with function declarations and constants.
 - **MouseZR.asm**: Assembly output of the compiled C code (for reference or debugging).
