@@ -2,7 +2,7 @@
 
 MouseZR is a lightweight server application for Linux that creates a virtual mouse device using the `uinput` interface. It listens for mouse control commands (e.g., move, click, scroll) over a TCP socket on port 8080, allowing remote or local applications to control the mouse cursor programmatically. This project is ideal for automation, remote desktop applications, or testing mouse input on Linux systems.
 
-![MouseZR Architecture](MouseZR/chart.png)
+![MouseZR Architecture](chart.png)
 
 ## Features
 - Creates a virtual mouse device using Linux `uinput`.
