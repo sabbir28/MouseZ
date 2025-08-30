@@ -84,9 +84,6 @@ To build and run MouseZR on Linux, you need:
 - The server handles one client at a time. For multiple clients, modify the code to support concurrent connections.
 - The estimated RAM usage is approximately 100–150 KB, making it lightweight for most Linux systems.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Contributing
 Contributions are welcome! Please submit a pull request or open an issue on the [GitHub repository](https://github.com/sabbir28/MouseZ) for bug reports, feature requests, or improvements.
 
